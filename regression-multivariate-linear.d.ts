@@ -10,7 +10,7 @@ declare module 'ml-regression-multivariate-linear' {
     statistics?: boolean;
   }
 
-  class MultivariateLinearRegression {
+  export class MultivariateLinearRegression {
     stdError: number;
     stdErrorMatrix: Matrix;
     stdErrors: number[];
@@ -30,6 +30,4 @@ declare module 'ml-regression-multivariate-linear' {
     predict(x: AbstractMatrix): Matrix;
     toJSON(): MLRModel;
   }
-
-  export = MultivariateLinearRegression;
 }
