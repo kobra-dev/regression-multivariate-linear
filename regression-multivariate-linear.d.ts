@@ -5,13 +5,13 @@ export = ml_regression_multivariate_linear;
 declare class ml_regression_multivariate_linear {
     constructor(...args: any[]);
 
-    predict(...args: any[]): void;
+    predict(...args: any[]): any;
 
-    score(...args: any[]): void;
+    score(...args: any[]): any;
 
-    toJSON(...args: any[]): void;
+    toJSON(...args: any[]): any;
 
-    static load(...args: any[]): void;
+    static load(...args: any[]): any;
 
 }
 
